@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(117, 47, 163);
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#container {
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+    margin: 150px 250px;
+    padding: 15px;
+    border-radius: 20px;
+}
+h2 {
+    color: rgba(255, 255, 255, 0.884);
+}
+#container button {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    border: none;
+    font-size: bolder;
+    font-size: 15px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin: 0px 40px;
+}
+#container button:hover {
+    background-color: rgb(117, 47, 163);
+    border: white solid 1px;
+    cursor: pointer;
+}
+a {
+    display: flex;
+    color: white;
+    justify-self: flex-end;
+    text-decoration: none;
+    font-size: 17px;
+    width: 110px;
+}
+
+a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+#popup {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, .6);
+    transition: .5s linear;
+    display: none;
+}
+#popup-cont {
+    background-color: rgb(117, 47, 163);
+    border: 1px solid rgb(48, 48, 48);
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 15px;
+}
+#close {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+#close:hover,#close:focus {
+    cursor: pointer;
+    background-color: rgb(117, 47, 163);
+    color: white;
+    border: 2px solid black;
+    padding: 3px;
+    
+}

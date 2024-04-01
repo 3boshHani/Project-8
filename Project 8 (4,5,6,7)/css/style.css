@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(117, 47, 163);
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#container {
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+    margin: 150px 250px;
+    padding: 15px;
+    border-radius: 20px;
+}
+h2 {
+    color: rgba(255, 255, 255, 0.884);
+}
+#btns a{
+    display: flex;
+    color: black;
+    border-radius: 20px;
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    border: 2px solid black;
+    font-size: 15px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin: 10px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+#container button:hover {
+    background-color: rgb(117, 47, 163);
+    cursor: pointer;
+}
+#abdo{
+    display: flex;
+    color: white;
+    justify-self: flex-end;
+    text-decoration: none;
+    font-size: 17px;
+    width: 110px;
+}
+
+#abdo:hover {
+    color: white;
+    font-weight: bold;
+}
+#btns {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
